@@ -30,7 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+                {
+                    "input": "src/styles.scss",
+                    "inject": true,
+                    "bundleName": "styles"
+                }            
             ],
             "scripts": []
           },
@@ -100,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "41a3148a-350b-4b9a-a2c8-a4396cff0d3d"
   }
 }

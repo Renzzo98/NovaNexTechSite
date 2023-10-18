@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { contentType } from 'src/constants/constant';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nova-nex-tech-site';
+
+  contentType = contentType.SubMain;
 }
